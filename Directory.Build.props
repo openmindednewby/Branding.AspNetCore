@@ -19,9 +19,9 @@
     <Description>Portfolio-wide attribution middleware for ASP.NET Core services. Adds an X-Built-By response header, a "built by" footer to Swagger UI, and a builtBy field to the standard health-check payload. One line of setup; consistent attribution across every service.</Description>
 
     <!-- Versioning -->
-    <Version>1.0.1</Version>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
-    <FileVersion>1.0.1.0</FileVersion>
+    <Version>1.0.2</Version>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
 
     <!-- NuGet settings -->
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
@@ -44,6 +44,7 @@
     <None Include="$(MSBuildThisFileDirectory)README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 </Project>
+
 
 
 
